@@ -8,8 +8,10 @@
 }
 .headerButtons{
   color: LightSalmon;
-  background-color: Navy;
+  background-color: rgb(50, 150, 200);
   border: 5px dashed red;
-
-  font-size: 85px
+  font-size: 20px;
+  width:100px;
+  margin:20px;
+  padding:20px;
 }
