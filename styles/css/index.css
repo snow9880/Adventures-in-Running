@@ -5,12 +5,11 @@
   border-color: blue;
   border-width: thick;
   border-style: solid;
-
 }
 .headerButtons{
   color: LightSalmon;
   background-color: Navy;
-  border: blue, thick, solid;
+  border: 5px dashed red;
 
-  font-size: 50px
+  font-size: 85px
 }
