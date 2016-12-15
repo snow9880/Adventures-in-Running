@@ -2,23 +2,34 @@
 
 }
 .picture {
-  border-color: blue;
-  border-width: thick;
+  border-color: #FFF;
+  border-radius:100%;
   border-style: solid;
+
 }
-.headerButtons{
-  color: LightSalmon;
-  background-color: MidnightBlue;
+.headerList{
+  width:100%;
+}
+.button{
+  color: #FF5A5A;
+  background-color: #00458B;
   list-style: none;
   font-size: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width:100px;
+  margin:auto;
+  width:auto;
   padding:10px;
-  border: outset;
-  border-radius: 50px;
+  border-radius: 10px;
   text-align:center;
   font-family: 'dekko', cursive, sans serif;
+}
+.button.1{
+
+}
+.button.2{
+
+}
+.button.3{
+  
 }
 h1{
   font-family: 'dekko', cursive; sans-serif;
@@ -26,5 +37,6 @@ h1{
   font-variant-caps: small-caps;
 }
 li{
-  display:inline;
+  display:inline-block;
+  padding: span;
 }
