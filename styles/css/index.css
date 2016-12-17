@@ -6,8 +6,8 @@ Dark Coral: color:#CD6155;
 Teal: color:#45B39D;
 Purple: color:#512E5F;
 */
-.background {
-
+body{
+  background-color:#7FB3D5;
 }
 .picture {
   border-color: #FFF;
@@ -19,9 +19,12 @@ Purple: color:#512E5F;
   width:100%;
 
 }
-.button{
-  color: #FF5A5A;
-  background-color: #00458B;
+h1{
+  color:#34495E;
+}
+nav li{
+  color: #CD6155;
+  background-color: #34495E;
   list-style: none;
   font-size: 20px;
   margin:auto;
@@ -30,6 +33,10 @@ Purple: color:#512E5F;
   border-radius: 10px;
   text-align:center;
   font-family: 'dekko', cursive, sans-serif;
+  text-decoration:none;
+}
+.button:hover{
+  color:#F1948A;
 }
 .button.1{
 
