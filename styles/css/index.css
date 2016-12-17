@@ -1,3 +1,11 @@
+/*color Palette codes
+Navy: color:#34495E;
+Light Blue: color:#7FB3D5;
+Light Coral: color:#F1948A;
+Dark Coral: color:#CD6155;
+Teal: color:#45B39D;
+Purple: color:#512E5F;
+*/
 .background {
 
 }
@@ -21,7 +29,7 @@
   padding:10px;
   border-radius: 10px;
   text-align:center;
-  font-family: 'dekko', cursive, sans serif;
+  font-family: 'dekko', cursive, sans-serif;
 }
 .button.1{
 
