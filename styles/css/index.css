@@ -6,22 +6,29 @@ Dark Coral: color:#CD6155;
 Teal: color:#45B39D;
 Purple: color:#512E5F;
 */
+*{
+  font-family:"Dekko" cursive sans-serif;
+}
 body{
   background-color:#7FB3D5;
 }
+/*header picture*/
 .picture {
   border-color: #FFF;
-  border-radius:100%;
+  border-radius:25%;
   border-style: solid;
-
 }
+/*Main Header*/
 .headerList{
-  width:100%;
-
+  display:block;
 }
 h1{
+  font-family: 'dekko', cursive; sans-serif;
+  font-size: 50px;
+  font-variant-caps: small-caps;
   color:#34495E;
 }
+/*nav bar*/
 nav li{
   color: #CD6155;
   background-color: #34495E;
@@ -38,21 +45,29 @@ nav li{
 .button:hover{
   color:#F1948A;
 }
-.button.1{
-
-}
-.button.2{
-
-}
-.button.3{
-
-}
-h1{
-  font-family: 'dekko', cursive; sans-serif;
-  font-size: 50px;
-  font-variant-caps: small-caps;
-}
 li{
   display:inline-block;
   padding: span;
+}
+/*1st paragraph*/
+h2{
+  color:#45B39D;
+  display:inline;
+  border:2px solid #34495E;
+  border-radius:10px;
+  width:auto;
+  background-color:#34495E;
+}
+p{
+
+}
+/*blog*/
+h3{
+
+}
+h4{
+
+}
+h5{
+
 }
