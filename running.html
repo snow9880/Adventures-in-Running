@@ -6,7 +6,7 @@
     <title>Running Adventures</title>
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Dekko"
-rel="stylesheet">
+    rel="stylesheet">
     <!--bootstrap-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,21 +14,30 @@ rel="stylesheet">
     href="styles/bootstrap-3.3.7-dist/css/bootstrap.min.css">
   </head>
   <body>
-    <img class="picture" src="pictures/10k group pic.jpg"/>
+    <img class="picture col-md-6 center" src="pictures/10k group pic.jpg"/>
     <h1>Running Adventures</h1>
-    <div class="headerList">
+    <div class="container headerList">
       <nav>
-        <ul>
-          <li class="button 1">About Me</li>
-          <li class="button 2"><a href="running.html">Running Adventures</a></li>
-          <li class="button 3">Cooking Adventures</li>
-        </ul>
+        <div class="row">
+          <ul>
+            <li class="button 1 col-md-2">
+              <a href="index.html">About Me</a>
+            </li>
+            <li class="button 2 col-md-2 text-nowrap">
+              <a href="running.html">Running Adventures</a>
+            </li>
+            <li class="button 3 col-md-2">
+              <a href="cooking.html">Cooking Adventures</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
-    <div class="blog">
+    <div class="container-fluid text-left blog">
       <h3>BOSU Hit Workout</h3>
       <h5>December 15, 2016</h5>
-        <p>
+        <div class="col-md-8 text-left">
+          <p>
       With athletic training, I have always been fascinated by what you can do
       with a <a href="https://www.bosu.com/blog">BOSU</a>(both sides used).
       Recently, I came across the <a href="https://www.bosu.com/blog">BOSU blog</a>
@@ -49,7 +58,8 @@ rel="stylesheet">
                 <li>Side plank thread the needle</li>
                 <li>Plank BOSU jacks</li>
               </ul>
-        </p>
+            </p>
+          </div>
     </div>
   </body>
 </html>
