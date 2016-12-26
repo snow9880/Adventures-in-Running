@@ -1,8 +1,12 @@
 <!DOCTYPE>
-<html>
+<html lang="en">
   <head>
     <link href="styles/css/index.css"
     type="text/css" rel="stylesheet">
+    <!--bootstrap-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <title>Michelle's Running Adventures</title>
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Dekko"
@@ -10,17 +14,27 @@ rel="stylesheet">
   </head>
   <body>
     <img class="picture" src="pictures/bbw running.jpg"/>
-    <h1>Running, Jelly Beans, and Life in Between</h1>
-    <div class="headerList">
-      <nav>
-        <ul>
-          <li class="button 1"><a href="">About Me</a></li>
-          <li class="button 2"><a href="running.html">Running Adventures</a></li>
-          <li class="button 3"><a href="cooking.html">Cooking Adventures</a></li>
-        </ul>
-      </nav>
+    <div class="container">
+      <h1>Running, Jelly Beans, and Life in Between</h1>
+      <div class="container headerList">
+        <nav>
+          <div class="row">
+            <ul>
+              <li class="button 1 col-md-2">
+                <a href="">About Me</a>
+              </li>
+              <li class="button 2 col-md-2 text-nowrap">
+                <a href="running.html">Running Adventures</a>
+              </li>
+              <li class="button 3 col-md-2">
+                <a href="cooking.html">Cooking Adventures</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
-    <div class="About Me">
+    <div class="container aboutMe">
       <h2>About Me</h2>
       <p>
     I grew up in Colorado Springs, Colorado where I learned to love the outdoors
