@@ -1,0 +1,40 @@
+//variables
+$navy: #34495E;
+$lightBlue: #7FB3D5;
+$lightCoral: #F1948A;
+$darkCoral: #CD6155;
+$teal: #45B39D;
+$purple: #512E5F;
+
+//Navigation Bar
+#top-bar {
+  background: #f6f5f3;
+  background-image: initial;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(246, 245, 243);
+
+
+}
+#nav-wrapper{
+  ul{
+    li{
+      text-decoration:none;
+      a{
+      color:$navy;
+      text-decoration:none;
+      }
+    }
+  }
+}
+.headerTitle{
+  background-image: url(pictures/bbw-running);
+}
+.mainInfo{
+  h1{
+    color:$lightCoral;
+  }
+  background-color:$lightBlue;
+}

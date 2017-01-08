@@ -1,0 +1,24 @@
+#top-bar {
+  background: #f6f5f3;
+  background-image: initial;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: #f6f5f3; }
+
+#nav-wrapper ul li {
+  text-decoration: none; }
+  #nav-wrapper ul li a {
+    color: #34495E;
+    text-decoration: none; }
+
+.headerTitle {
+  background-image: url(pictures/bbw-running); }
+
+.mainInfo {
+  background-color: #7FB3D5; }
+  .mainInfo h1 {
+    color: #F1948A; }
+
+/*# sourceMappingURL=newindex.css.map */
