@@ -14,7 +14,10 @@
     text-decoration: none; }
 
 .headerTitle {
-  background-image: url(pictures/bbw-running); }
+  background-image: url(Pictures/bbw-running.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block; }
 
 .mainInfo {
   background-color: #7FB3D5; }
