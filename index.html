@@ -1,15 +1,16 @@
 <!DOCTYPE>
 <html lang="en-US">
   <head>
-    <link href="styles/css/index.css"
-    type="text/css" rel="stylesheet">
-    <link href="styles/css/newindex.css" type="text/css" rel="stylesheet">
+
     <!--bootstrap-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <scrip src="styles/bootstrap-3.3.7-dist/js/bootstrap.min.js">
     <link rel='stylesheet' id='fontawesome-css-css'
       href='styles/font-awesome-4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+    <!--<link href="styles/css/index.css" type="text/css" rel="stylesheet">-->
+    <link href="styles/css/newindex.css" type="text/css" rel="stylesheet">
     <title>Michelle's Running Adventures</title>
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Dekko"
@@ -18,58 +19,49 @@ rel="stylesheet">
   <body>
     <div id="top-bar">
 
-    <div class="container">
+    <div class="container-fluid">
 
       <div id="nav-wrapper">
         <ul id="menu-main-menu" class="menu">
           <li id="menu-item-1" class="menu-item">
             <a href="#aboutMe">About</a>
           </li>
-          <li id="menu-item-2" class="menu-item">
-            <a href="#runningAdventures">Running Adventures
-            </a>
-            <ul class="sub-menu">
-              <li id="menu-item-2-1" class="menu-item">
-                <a href="#">Training</a>
-              </li>
-              <li id="menu-item-2-2" class="menu-item">
-                <a href="#">Goals</a>
-              </li>
-              <li id="menu-item-2-3" class="menu-item">
-                <a href="#">Favorite Workouts</a>
-              </li>
-              <li id="menu-item-2-4" class="menu-item">
-                <a href="#">Strength Training</a>
-              </li>
-            </ul>
-          </li>
-          <li id="menu-item-3" class="menu-item">
-            <a href="#cookingAdventures">Cooking Adventures</a>
-            <ul class="sub-menu">
-              <li id="menu-item-3-1" class="menu-item">
-                <a href="#">Breakfast</a>
-              </li>
-              <li id="menu-item-3-2" class="menu-item">
-                <a href="#">Lunch &#038; Dinner</a>
-              </li>
-              <li id="menu-item-3-3" class="menu-item">
-                <a href="#">Yummys</a>
-              </li>
-            </ul>
+          <div class="dropdown">
+            <li>
+                <button class= "btn btn-primary dropdown-toggle" type="button" id="menu1"
+              data-toggle="dropdown">Running Adventures
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                    <li role="presentation"><a role="menuitem" href="#runningAdventures"></a></li>
+                    <li role="presentation" class="divider"> </li>
+                    <li role="presentation"><a role="menuitem" href="#">Training</a></li>
+                    <li role="presentation"><a role="menuitem" href="#">Goals</a></li>
+                    <li role="presentation"><a role="menuitem" href="#">Favorite Workouts</a></li>
+                    <li role="presentation"><a role="menuitem" href="#">Strength Training</a></li>
+                </ul>
+            </li>
+          </div>
+          <div class="dropdown">
+          <li>
+            <button class="btn btn-primary dropdown-toggle" type="button" id="menu2"
+            data-toggle="dropdown">Cooking Adventures</button>
+            <div class="dropdown-menu" role="menu" aria-labelledby="menu2">
+              <ul class="content">
+                <li role="presentation">
+                  <a role="menuitem" href="#">Breakfast</a>
+                </li>
+                <li role="presentation">
+                  <a role="menuitem" href="#">Lunch &#038; Dinner</a>
+                </li>
+                <li role="presentation">
+                  <a role="menuitem" href="#">Yummys</a>
+                </li>
+              </ul>
+            </div>
           </li>
         </ul>
       </div>
-      <div class="menu-mobile"></div>
-      <div id="top-search">
-        <a href="#" class="search">
-          <i class="fa fa-search"></i>
-        </a>
-        <div class="show-search">
-          <form role="search" method="get" id="searchform" action="#">
-            <input type="text" placeholder="Search and hit enter..." name="s" id="s" />
-          </form>
-        </div>
-      </div>
+
       <div id="top-social" >
         <a href="http://twitter.com/run4jellybeans" target="_blank">
           <i class="fa fa-twitter"></i>
