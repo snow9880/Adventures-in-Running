@@ -1,7 +1,8 @@
+* {
+  font-family: "Dekko" cursive sans-serif; }
+
 #top-bar {
   background: #f6f5f3;
-  background-image: initial;
-  background-size: initial;
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
@@ -15,13 +16,13 @@
   padding: 10; }
   #nav-wrapper ul li .dropdown {
     display: inline-block; }
-    #nav-wrapper ul li .dropdown .dropdown-content {
+    #nav-wrapper ul li .dropdown li ul {
       display: none;
       position: absolute;
       background-color: #F1948A;
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
-      #nav-wrapper ul li .dropdown .dropdown-content a {
+      #nav-wrapper ul li .dropdown li ul a {
         font-size: 15px;
         color: #34495E;
         background-color: #45B39D;
@@ -39,10 +40,21 @@
   background-size: cover;
   display: block; }
 
+h1 {
+  display: block; }
+
 .mainInfo {
   background-color: #7FB3D5; }
   .mainInfo h1 {
     color: #F1948A;
     font-family: Dekko, cursive, san serif; }
+
+.picture {
+  display: block;
+  border-color: #FFF;
+  border-radius: 25%;
+  border-style: solid;
+  height: auto;
+  width: auto; }
 
 /*# sourceMappingURL=newindex.css.map */

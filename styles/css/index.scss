@@ -7,11 +7,14 @@ $teal: #45B39D;
 $purple: #512E5F;
 $mainFont: Dekko, cursive, san serif;
 
+*{
+  font-family:"Dekko" cursive sans-serif;
+}
 //Navigation Bar
 #top-bar {
   background: #f6f5f3;
-  background-image: initial;
-  background-size: initial;
+  //background-image: initial;
+  //background-size: initial;
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
@@ -27,7 +30,7 @@ $mainFont: Dekko, cursive, san serif;
       padding: 10;
       .dropdown{
         display:inline-block;
-          .dropdown-content{
+          li ul{
             display:none;
             position:absolute;
             background-color: $lightCoral;
@@ -60,10 +63,21 @@ $mainFont: Dekko, cursive, san serif;
   background-size:cover;
   display:block;
 }
+h1{
+  display:block;
+}
 .mainInfo{
   h1{
     color:$lightCoral;
     font-family: $mainFont;
   }
   background-color:$lightBlue;
+}
+.picture {
+  display:block;
+  border-color: #FFF;
+  border-radius:25%;
+  border-style: solid;
+  height:auto;
+  width:auto;
 }
